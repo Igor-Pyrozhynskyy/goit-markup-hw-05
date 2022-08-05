@@ -19,7 +19,6 @@ body {
   /* outline: 1px solid red; */
   padding-left: 15px;
   padding-right: 15px;
-  -webkit-background-clip: text;
 }
 h1,
 h2,
@@ -487,8 +486,6 @@ img {
 }
 .card-link {
   text-decoration: none;
-  width: 370px;
-  height: 404px;
   display: block;
 }
 .card__status {

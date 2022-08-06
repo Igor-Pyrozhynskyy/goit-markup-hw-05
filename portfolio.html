@@ -18,7 +18,7 @@
     <title>WebStudio</title>
   </head>
   <body>
-     <header class="header">
+    <header class="header">
       <div class="container header-menu">
         <nav class="nav-menu">
           <a class="nav-logo" href="./index.html">
@@ -26,7 +26,7 @@
           >
           <ul class="list header-list">
             <li class="nav-item">
-              <a class="nav-link " href="./index.html">Студія</a>
+              <a class="nav-link" href="./index.html">Студія</a>
             </li>
             <li class="nav-item">
               <a class="nav-link curent" href="./portfolio.html">Портфоліо</a>
@@ -36,17 +36,17 @@
         </nav>
         <ul class="list contacts">
           <li class="contacts-list">
-              <a class="nav-contacts" href="mailto:info@devstudio.com"
+            <a class="nav-contacts" href="mailto:info@devstudio.com"
               ><svg class="contacts-icon" width="16" height="12">
-              <use href="./images/icons.svg#icon-envelope"></use>
-            </svg>info@devstudio.com
+                <use href="./images/icons.svg#icon-envelope"></use></svg
+              >info@devstudio.com
             </a>
           </li>
           <li class="contacts-list">
-              <a class="nav-contacts" href="tel:+380961111111"
+            <a class="nav-contacts" href="tel:+380961111111"
               ><svg class="contacts-icon" width="10" height="16">
-              <use href="./images/icons.svg#icon-smartphone"></use>
-            </svg>+38 096 111 11 11</a
+                <use href="./images/icons.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -76,17 +76,24 @@
           <ul class="list cards__list">
             <li class="cards__item">
               <a class="card-link" href="">
-                <img
-                  src="./images/card-title1.jpg"
-                  alt="ноутбук"
-                  width="370"
-                  height="294"
+                <div class="hover-decoracion">
+                  <img
+                    src="./images/card-title1.jpg"
+                    alt="ноутбук"
+                    width="370"
+                    height="294"
                   />
-                  <div class="card__status">
+                  <p class="hover-description">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем
+                    функціоналу та сервісів. Все це дозволить відвідувачу
+                    отримати вичерпні відомості про компанію чи приватну особу.
+                  </p>
+                </div>
+                <div class="card__status">
                   <h2 class="card-title">Технокряк</h2>
                   <p class="card-category">Веб-сайт</p>
-                  </div>
-                </a>
+                </div>
+              </a>
             </li>
             <li class="cards__item">
               <a class="card-link" href="">
@@ -96,11 +103,11 @@
                   width="370"
                   height="294"
                 />
-                <div class="card__status"> 
-                <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
-                <p class="card-category">Дизайн</p>
+                <div class="card__status">
+                  <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="card-category">Дизайн</p>
                 </div>
-                </a>
+              </a>
             </li>
             <li class="cards__item">
               <a class="card-link" href="">
@@ -111,9 +118,9 @@
                   height="294"
                 />
                 <div class="card__status">
-                <h2 class="card-title">Ресторан Seafood</h2>
-                <p class="card-category">Додаток</p>
-              </div> 
+                  <h2 class="card-title">Ресторан Seafood</h2>
+                  <p class="card-category">Додаток</p>
+                </div>
               </a>
             </li>
             <li class="cards__item">
@@ -125,9 +132,9 @@
                   height="294"
                 />
                 <div class="card__status">
-                <h2 class="card-title">Проект Prime</h2>
-                <p class="card-category">Маркетинг</p>
-              </div> 
+                  <h2 class="card-title">Проект Prime</h2>
+                  <p class="card-category">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="cards__item">
@@ -139,9 +146,9 @@
                   height="294"
                 />
                 <div class="card__status">
-                <h2 class="card-title">Проект Boxes</h2>
-                <p class="card-category">Додаток</p>
-              </div> 
+                  <h2 class="card-title">Проект Boxes</h2>
+                  <p class="card-category">Додаток</p>
+                </div>
               </a>
             </li>
             <li class="cards__item">
@@ -153,9 +160,9 @@
                   height="294"
                 />
                 <div class="card__status">
-                <h2 class="card-title">Inspiration has no Borders</h2>
-                <p class="card-category">Веб-сайт</p>
-              </div> 
+                  <h2 class="card-title">Inspiration has no Borders</h2>
+                  <p class="card-category">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="cards__item">
@@ -166,10 +173,10 @@
                   width="370"
                   height="294"
                 />
-                <div class="card__status"> 
-                <h2 class="card-title">Издание Limited Edition</h2>
-                <p class="card-category">Дизайн</p>
-              </div>
+                <div class="card__status">
+                  <h2 class="card-title">Издание Limited Edition</h2>
+                  <p class="card-category">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="cards__item">
@@ -180,10 +187,10 @@
                   width="370"
                   height="294"
                 />
-                <div class="card__status"> 
-                <h2 class="card-title">Проект LAB</h2>
-                <p class="card-category">Маркетинг</p>
-              </div>
+                <div class="card__status">
+                  <h2 class="card-title">Проект LAB</h2>
+                  <p class="card-category">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="cards__item">
@@ -194,10 +201,10 @@
                   width="370"
                   height="294"
                 />
-                <div class="card__status"> 
-                <h2 class="card-title">Growing Business</h2>
-                <p class="card-category">Додаток</p>
-              </div>
+                <div class="card__status">
+                  <h2 class="card-title">Growing Business</h2>
+                  <p class="card-category">Додаток</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -205,7 +212,7 @@
       </section>
     </main>
     <div class="container-wrap">
-    <footer class="footer">
+      <footer class="footer">
         <div class="container">
           <div>
             <a class="footer-title" href="./index.html">
@@ -270,7 +277,7 @@
             </ul>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
